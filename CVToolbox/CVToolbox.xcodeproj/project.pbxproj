@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BB9FAF42ADB1ED9009F0B21 /* CVToolboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9FAF32ADB1ED9009F0B21 /* CVToolboxApp.swift */; };
+		7BB9FAF62ADB1ED9009F0B21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9FAF52ADB1ED9009F0B21 /* ContentView.swift */; };
+		7BB9FAF82ADB1EDA009F0B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB9FAF72ADB1EDA009F0B21 /* Assets.xcassets */; };
+		7BB9FAFB2ADB1EDA009F0B21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB9FAFA2ADB1EDA009F0B21 /* Preview Assets.xcassets */; };
+		7BB9FB052ADB1EDA009F0B21 /* CVToolboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9FB042ADB1EDA009F0B21 /* CVToolboxTests.swift */; };
+		7BB9FB0F2ADB1EDA009F0B21 /* CVToolboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9FB0E2ADB1EDA009F0B21 /* CVToolboxUITests.swift */; };
+		7BB9FB112ADB1EDA009F0B21 /* CVToolboxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9FB102ADB1EDA009F0B21 /* CVToolboxUITestsLaunchTests.swift */; };
+		7BB9FB212ADB1F5A009F0B21 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB9FB202ADB1F5A009F0B21 /* AssetsLibrary.framework */; };
+		7BB9FB232ADB1F60009F0B21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB9FB222ADB1F60009F0B21 /* CoreGraphics.framework */; };
+		7BB9FB252ADB1F67009F0B21 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB9FB242ADB1F67009F0B21 /* CoreMedia.framework */; };
+		7BB9FB272ADB1F6D009F0B21 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB9FB262ADB1F6D009F0B21 /* CoreFoundation.framework */; };
+		7BB9FB292ADB1F74009F0B21 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB9FB282ADB1F74009F0B21 /* Accelerate.framework */; };
+		7BB9FB2D2ADB2004009F0B21 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9FB2C2ADB2004009F0B21 /* OpenCVWrapper.mm */; };
+		7BB9FB312ADB2D83009F0B21 /* opencv2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB9FB302ADB2D83009F0B21 /* opencv2.xcframework */; };
+		7BB9FB342ADB30E0009F0B21 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7BB9FB332ADB30E0009F0B21 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BB9FB012ADB1EDA009F0B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BB9FAE82ADB1ED9009F0B21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB9FAEF2ADB1ED9009F0B21;
+			remoteInfo = CVToolbox;
+		};
+		7BB9FB0B2ADB1EDA009F0B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BB9FAE82ADB1ED9009F0B21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB9FAEF2ADB1ED9009F0B21;
+			remoteInfo = CVToolbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BB9FAF02ADB1ED9009F0B21 /* CVToolbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CVToolbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB9FAF32ADB1ED9009F0B21 /* CVToolboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVToolboxApp.swift; sourceTree = "<group>"; };
+		7BB9FAF52ADB1ED9009F0B21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7BB9FAF72ADB1EDA009F0B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BB9FAFA2ADB1EDA009F0B21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7BB9FB002ADB1EDA009F0B21 /* CVToolboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CVToolboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB9FB042ADB1EDA009F0B21 /* CVToolboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVToolboxTests.swift; sourceTree = "<group>"; };
+		7BB9FB0A2ADB1EDA009F0B21 /* CVToolboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CVToolboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB9FB0E2ADB1EDA009F0B21 /* CVToolboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVToolboxUITests.swift; sourceTree = "<group>"; };
+		7BB9FB102ADB1EDA009F0B21 /* CVToolboxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVToolboxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7BB9FB202ADB1F5A009F0B21 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		7BB9FB222ADB1F60009F0B21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7BB9FB242ADB1F67009F0B21 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		7BB9FB262ADB1F6D009F0B21 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		7BB9FB282ADB1F74009F0B21 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		7BB9FB2A2ADB2004009F0B21 /* CVToolbox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CVToolbox-Bridging-Header.h"; sourceTree = "<group>"; };
+		7BB9FB2B2ADB2004009F0B21 /* OpenCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OpenCVWrapper.h; path = CVToolbox/OpenCVWrapper.h; sourceTree = "<group>"; };
+		7BB9FB2C2ADB2004009F0B21 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenCVWrapper.mm; path = CVToolbox/OpenCVWrapper.mm; sourceTree = "<group>"; };
+		7BB9FB302ADB2D83009F0B21 /* opencv2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = opencv2.xcframework; sourceTree = "<group>"; };
+		7BB9FB322ADB2E0F009F0B21 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7BB9FB332ADB30E0009F0B21 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BB9FAED2ADB1ED9009F0B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB9FB292ADB1F74009F0B21 /* Accelerate.framework in Frameworks */,
+				7BB9FB272ADB1F6D009F0B21 /* CoreFoundation.framework in Frameworks */,
+				7BB9FB252ADB1F67009F0B21 /* CoreMedia.framework in Frameworks */,
+				7BB9FB312ADB2D83009F0B21 /* opencv2.xcframework in Frameworks */,
+				7BB9FB232ADB1F60009F0B21 /* CoreGraphics.framework in Frameworks */,
+				7BB9FB212ADB1F5A009F0B21 /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB9FAFD2ADB1EDA009F0B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB9FB072ADB1EDA009F0B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BB9FAE72ADB1ED9009F0B21 = {
+			isa = PBXGroup;
+			children = (
+				7BB9FB322ADB2E0F009F0B21 /* PrefixHeader.pch */,
+				7BB9FB302ADB2D83009F0B21 /* opencv2.xcframework */,
+				7BB9FB2B2ADB2004009F0B21 /* OpenCVWrapper.h */,
+				7BB9FB2C2ADB2004009F0B21 /* OpenCVWrapper.mm */,
+				7BB9FAF22ADB1ED9009F0B21 /* CVToolbox */,
+				7BB9FB032ADB1EDA009F0B21 /* CVToolboxTests */,
+				7BB9FB0D2ADB1EDA009F0B21 /* CVToolboxUITests */,
+				7BB9FAF12ADB1ED9009F0B21 /* Products */,
+				7BB9FB1F2ADB1F5A009F0B21 /* Frameworks */,
+				7BB9FB2A2ADB2004009F0B21 /* CVToolbox-Bridging-Header.h */,
+				7BB9FB332ADB30E0009F0B21 /* .gitignore */,
+			);
+			sourceTree = "<group>";
+		};
+		7BB9FAF12ADB1ED9009F0B21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BB9FAF02ADB1ED9009F0B21 /* CVToolbox.app */,
+				7BB9FB002ADB1EDA009F0B21 /* CVToolboxTests.xctest */,
+				7BB9FB0A2ADB1EDA009F0B21 /* CVToolboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BB9FAF22ADB1ED9009F0B21 /* CVToolbox */ = {
+			isa = PBXGroup;
+			children = (
+				7BB9FAF32ADB1ED9009F0B21 /* CVToolboxApp.swift */,
+				7BB9FAF52ADB1ED9009F0B21 /* ContentView.swift */,
+				7BB9FAF72ADB1EDA009F0B21 /* Assets.xcassets */,
+				7BB9FAF92ADB1EDA009F0B21 /* Preview Content */,
+			);
+			path = CVToolbox;
+			sourceTree = "<group>";
+		};
+		7BB9FAF92ADB1EDA009F0B21 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7BB9FAFA2ADB1EDA009F0B21 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7BB9FB032ADB1EDA009F0B21 /* CVToolboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BB9FB042ADB1EDA009F0B21 /* CVToolboxTests.swift */,
+			);
+			path = CVToolboxTests;
+			sourceTree = "<group>";
+		};
+		7BB9FB0D2ADB1EDA009F0B21 /* CVToolboxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BB9FB0E2ADB1EDA009F0B21 /* CVToolboxUITests.swift */,
+				7BB9FB102ADB1EDA009F0B21 /* CVToolboxUITestsLaunchTests.swift */,
+			);
+			path = CVToolboxUITests;
+			sourceTree = "<group>";
+		};
+		7BB9FB1F2ADB1F5A009F0B21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BB9FB282ADB1F74009F0B21 /* Accelerate.framework */,
+				7BB9FB262ADB1F6D009F0B21 /* CoreFoundation.framework */,
+				7BB9FB242ADB1F67009F0B21 /* CoreMedia.framework */,
+				7BB9FB222ADB1F60009F0B21 /* CoreGraphics.framework */,
+				7BB9FB202ADB1F5A009F0B21 /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BB9FAEF2ADB1ED9009F0B21 /* CVToolbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB9FB142ADB1EDA009F0B21 /* Build configuration list for PBXNativeTarget "CVToolbox" */;
+			buildPhases = (
+				7BB9FAEC2ADB1ED9009F0B21 /* Sources */,
+				7BB9FAED2ADB1ED9009F0B21 /* Frameworks */,
+				7BB9FAEE2ADB1ED9009F0B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CVToolbox;
+			productName = CVToolbox;
+			productReference = 7BB9FAF02ADB1ED9009F0B21 /* CVToolbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BB9FAFF2ADB1EDA009F0B21 /* CVToolboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB9FB172ADB1EDA009F0B21 /* Build configuration list for PBXNativeTarget "CVToolboxTests" */;
+			buildPhases = (
+				7BB9FAFC2ADB1EDA009F0B21 /* Sources */,
+				7BB9FAFD2ADB1EDA009F0B21 /* Frameworks */,
+				7BB9FAFE2ADB1EDA009F0B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BB9FB022ADB1EDA009F0B21 /* PBXTargetDependency */,
+			);
+			name = CVToolboxTests;
+			productName = CVToolboxTests;
+			productReference = 7BB9FB002ADB1EDA009F0B21 /* CVToolboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BB9FB092ADB1EDA009F0B21 /* CVToolboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB9FB1A2ADB1EDA009F0B21 /* Build configuration list for PBXNativeTarget "CVToolboxUITests" */;
+			buildPhases = (
+				7BB9FB062ADB1EDA009F0B21 /* Sources */,
+				7BB9FB072ADB1EDA009F0B21 /* Frameworks */,
+				7BB9FB082ADB1EDA009F0B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BB9FB0C2ADB1EDA009F0B21 /* PBXTargetDependency */,
+			);
+			name = CVToolboxUITests;
+			productName = CVToolboxUITests;
+			productReference = 7BB9FB0A2ADB1EDA009F0B21 /* CVToolboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BB9FAE82ADB1ED9009F0B21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7BB9FAEF2ADB1ED9009F0B21 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					7BB9FAFF2ADB1EDA009F0B21 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7BB9FAEF2ADB1ED9009F0B21;
+					};
+					7BB9FB092ADB1EDA009F0B21 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7BB9FAEF2ADB1ED9009F0B21;
+					};
+				};
+			};
+			buildConfigurationList = 7BB9FAEB2ADB1ED9009F0B21 /* Build configuration list for PBXProject "CVToolbox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BB9FAE72ADB1ED9009F0B21;
+			productRefGroup = 7BB9FAF12ADB1ED9009F0B21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BB9FAEF2ADB1ED9009F0B21 /* CVToolbox */,
+				7BB9FAFF2ADB1EDA009F0B21 /* CVToolboxTests */,
+				7BB9FB092ADB1EDA009F0B21 /* CVToolboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BB9FAEE2ADB1ED9009F0B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB9FAFB2ADB1EDA009F0B21 /* Preview Assets.xcassets in Resources */,
+				7BB9FB342ADB30E0009F0B21 /* .gitignore in Resources */,
+				7BB9FAF82ADB1EDA009F0B21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB9FAFE2ADB1EDA009F0B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB9FB082ADB1EDA009F0B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BB9FAEC2ADB1ED9009F0B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB9FAF62ADB1ED9009F0B21 /* ContentView.swift in Sources */,
+				7BB9FAF42ADB1ED9009F0B21 /* CVToolboxApp.swift in Sources */,
+				7BB9FB2D2ADB2004009F0B21 /* OpenCVWrapper.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB9FAFC2ADB1EDA009F0B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB9FB052ADB1EDA009F0B21 /* CVToolboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB9FB062ADB1EDA009F0B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB9FB0F2ADB1EDA009F0B21 /* CVToolboxUITests.swift in Sources */,
+				7BB9FB112ADB1EDA009F0B21 /* CVToolboxUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BB9FB022ADB1EDA009F0B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BB9FAEF2ADB1ED9009F0B21 /* CVToolbox */;
+			targetProxy = 7BB9FB012ADB1EDA009F0B21 /* PBXContainerItemProxy */;
+		};
+		7BB9FB0C2ADB1EDA009F0B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BB9FAEF2ADB1ED9009F0B21 /* CVToolbox */;
+			targetProxy = 7BB9FB0B2ADB1EDA009F0B21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7BB9FB122ADB1EDA009F0B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BB9FB132ADB1EDA009F0B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BB9FB152ADB1EDA009F0B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CVToolbox/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Xiaomei.CVToolbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CVToolbox-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BB9FB162ADB1EDA009F0B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CVToolbox/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Xiaomei.CVToolbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CVToolbox-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7BB9FB182ADB1EDA009F0B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Xiaomei.CVToolboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CVToolbox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CVToolbox";
+			};
+			name = Debug;
+		};
+		7BB9FB192ADB1EDA009F0B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Xiaomei.CVToolboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CVToolbox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CVToolbox";
+			};
+			name = Release;
+		};
+		7BB9FB1B2ADB1EDA009F0B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Xiaomei.CVToolboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CVToolbox;
+			};
+			name = Debug;
+		};
+		7BB9FB1C2ADB1EDA009F0B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Xiaomei.CVToolboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CVToolbox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BB9FAEB2ADB1ED9009F0B21 /* Build configuration list for PBXProject "CVToolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB9FB122ADB1EDA009F0B21 /* Debug */,
+				7BB9FB132ADB1EDA009F0B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB9FB142ADB1EDA009F0B21 /* Build configuration list for PBXNativeTarget "CVToolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB9FB152ADB1EDA009F0B21 /* Debug */,
+				7BB9FB162ADB1EDA009F0B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB9FB172ADB1EDA009F0B21 /* Build configuration list for PBXNativeTarget "CVToolboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB9FB182ADB1EDA009F0B21 /* Debug */,
+				7BB9FB192ADB1EDA009F0B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB9FB1A2ADB1EDA009F0B21 /* Build configuration list for PBXNativeTarget "CVToolboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB9FB1B2ADB1EDA009F0B21 /* Debug */,
+				7BB9FB1C2ADB1EDA009F0B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BB9FAE82ADB1ED9009F0B21 /* Project object */;
+}
